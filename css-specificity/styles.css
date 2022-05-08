@@ -1,0 +1,73 @@
+div {
+	width: 400px;
+	height: 150px;
+	border: 2px solid fuchsia;
+	padding-bottom: 15px;
+}
+
+/* Selects all divs that are the first child of their parent */
+div:first-child {
+	width: 600px;
+	height: 150px;
+	border: 2px solid rgb(44, 114, 245);
+	margin-bottom: 15px;
+}
+
+.fact {
+	width: 300px;
+	height: 50px;
+	border: 2px solid aqua;
+}
+
+h1 {
+	width: 450px;
+	height: 50px;
+	border: 2px solid rgb(255, 89, 139);
+}
+
+/* Selects all p tags and changes hover properties */
+p:hover {
+	background-color: aqua;
+}
+
+/* Selects all p tags that are siblings to h1 tags */
+h1 ~ p {
+	width: 450px;
+	height: 25px;
+	border: 2px solid rgb(255, 89, 139);
+}
+
+/* Selects all p tags that are immediate siblings of divs */
+div + p {
+	color: rgb(188, 80, 238);
+}
+
+/* Selects all h1 tags inside of divs */
+div h1 {
+	color: rgb(255, 0, 200);
+}
+
+/* Selects all p tags that are immediate children of divs */
+div > p {
+	font-size: 20px;
+}
+
+/* Styles the first line of the selected element */
+h1::first-line {
+	text-decoration: underline;
+}
+
+/* Selects all oddly numbered children and the first letter of the element */
+p:nth-child(odd)::first-letter {
+	font-size: 25px;
+}
+
+/* Selects all p tags that are the only child of their parent element */
+p:only-child {
+	color: darkorange;
+}
+
+/* Selects all p tags that are the last child of their parent element */
+p:last-child {
+	background-color: rgb(236, 252, 13);
+}
