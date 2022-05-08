@@ -1,0 +1,27 @@
+ul:first-child {
+	background-color: aquamarine;
+}
+
+li:last-child {
+	background-color: lightcoral;
+}
+
+li:nth-child(even) {
+	font-weight: bold;
+}
+
+li:nth-child(odd) {
+	color: blueviolet;
+}
+
+li:nth-child(4) {
+	color: deepskyblue;
+}
+
+li:nth-child(4n + 5) {
+	font-size: 30px;
+}
+
+p:only-child {
+	border: 2px solid black;
+}
