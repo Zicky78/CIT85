@@ -1,0 +1,9 @@
+p::first-letter {
+	font-size: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+
+p::first-line {
+	color: royalblue;
+}
