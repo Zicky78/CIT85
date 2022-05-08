@@ -1,0 +1,19 @@
+/* All */
+div p {
+	color: blue;
+}
+
+/* Immediate child */
+div > p {
+	font-size: 30px;
+}
+
+/* Sibling following div */
+div ~ p {
+	background-color: darkseagreen;
+}
+
+/* Immediate following div */
+div + p {
+	background-color: aqua;
+}
