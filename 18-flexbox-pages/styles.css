@@ -1,0 +1,29 @@
+.box {
+	background-color: rgb(255, 116, 66);
+	height: 100px;
+	width: 100px;
+	border: 2px solid rgb(129, 30, 0);
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box h1 {
+	color: antiquewhite;
+	text-decoration: underline;
+}
+
+body {
+	background-color: antiquewhite;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.container {
+	height: 100%;
+}
+
+.wrapper {
+    display: flex;
+}
