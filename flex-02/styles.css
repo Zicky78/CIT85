@@ -1,0 +1,30 @@
+.box {
+	background-color: rgb(255, 116, 66);
+	height: 100px;
+	width: 400px;
+	border: 2px solid rgb(129, 30, 0);
+	margin: 10px;
+	flex-grow: 1;
+}
+
+.box2 {
+	flex-grow: 2;
+}
+
+
+
+body {
+	background-color: antiquewhite;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
