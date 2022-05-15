@@ -1,0 +1,68 @@
+.p1 {
+	background-color: #02539f;
+	height: 100vh;
+}
+
+.p2 {
+	background-color: #fff;
+	height: 50vh;
+}
+
+.content {
+	background-color: #00c957;
+	margin: 0 auto;
+	width: 60%;
+	height: 75%;
+	border: 6px solid black;
+}
+
+.blue {
+	color: #0366c8;
+}
+
+.red {
+	color: #f91713;
+}
+
+img {
+	border: 8px groove yellow;
+	height: 250px;
+	width: 350px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 40px auto;
+	height: 80%;
+	width: 80%;
+}
+
+.dotted {
+	border: 3px dotted blue;
+}
+
+.box {
+	height: 20%;
+	width: 10%;
+	margin: 10px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.b-red {
+	background-color: red;
+}
+
+.b-blue {
+	background-color: blue;
+}
+
+.b-yellow {
+	background-color: yellow;
+}
+
+.b-green {
+	background-color: green;
+}
