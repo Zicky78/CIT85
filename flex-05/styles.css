@@ -1,0 +1,45 @@
+body {
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 50%;
+	height: 30%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid red;
+}
+
+.navy {
+	width: 25%;
+	background-color: navy;
+}
+
+.cobalt {
+	height: 50%;
+	background-color: rgb(53, 53, 196);
+}
+
+.powder {
+	height: 50%;
+	width: 100%;
+	background-color: rgb(162, 218, 255);
+}
+
+div {
+	color: white;
+	font-size: large;
+}
