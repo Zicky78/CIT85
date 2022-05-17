@@ -1,0 +1,52 @@
+.box {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	font-size: larger;
+}
+body {
+	background-color: rgb(255, 255, 255);
+	height: 100vh;
+	margin: 0 auto;
+	border: 2px dotted red;
+	box-sizing: border-box;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.red {
+	background-color: rgb(255, 65, 51);
+	width: 100%;
+}
+
+.blue {
+	width: 60%;
+	background-color: rgb(137, 216, 253);
+}
+
+.green {
+	width: 40%;
+	background-color: rgb(180, 255, 119);
+}
+
+.yellow {
+	width: 50%;
+	background-color: rgb(255, 239, 16);
+}
+
+.purple {
+	width: 50%;
+	background-color: rgb(176, 83, 238);
+}
