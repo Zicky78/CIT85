@@ -1,0 +1,141 @@
+html {
+	background: rgba(0, 0, 0, 0.35)
+		url(https://images4.alphacoders.com/714/714539.jpg) no-repeat center center
+		fixed;
+	background-size: cover;
+	background-blend-mode: darken;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	margin-top: 200px;
+}
+
+h1 {
+	color: rgb(253, 237, 143);
+	font-family: 'Macondo', cursive;
+	font-size: 7.2rem;
+}
+
+nav ul {
+	width: 90%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 auto;
+	padding: 35px;
+}
+
+a {
+	color: rgb(253, 237, 143);
+	font-size: 1.8rem;
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(253, 237, 143);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav li {
+	margin: 0px 30px;
+}
+
+img {
+	width: 40%;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	border-radius: 2px;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+}
+
+h3 {
+	color: rgb(253, 237, 143);
+	font-family: 'Macondo', cursive;
+	font-size: 3.2rem;
+}
+
+.course {
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	font-size: 2.2rem;
+	color: rgb(253, 237, 143);
+	font-family: 'Antic Slab', serif;
+	margin: 10px 0px;
+}
+
+button {
+	height: 50px;
+	width: 150px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(253, 237, 143);
+	font-size: 1.8rem;
+	color: black;
+	font-family: 'Antic Slab', serif;
+	font-weight: 700;
+	box-sizing: border-box;
+	text-decoration: underline;
+}
+
+button:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid rgb(253, 237, 143);
+	color: rgb(253, 237, 143);
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px 35px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.footer a {
+	margin: 0px 30px;
+}
+
+.footer p {
+	margin: 0;
+}
+
+p {
+	color: rgb(253, 237, 143);
+	font-family: 'Antic Slab', serif;
+	font-size: 2.2rem;
+	width: 40%;
+	margin-top: 0;
+}
