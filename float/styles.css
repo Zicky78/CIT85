@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+div {
+	box-sizing: border-box;
+	border: 2px solid red;
+	padding: 10px;
+	margin: 20px auto;
+	width: 80%;
+	overflow: auto;
+}
+
+img {
+	height: 200px;
+	box-sizing: border-box;
+	border: 2px solid red;
+	margin: 10px;
+}
+
+#img_1 {
+	float: right;
+}
+
+#img_2 {
+	float: left;
+}
