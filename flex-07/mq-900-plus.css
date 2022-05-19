@@ -1,0 +1,25 @@
+.aside-1,
+.aside-2 {
+	width: 15%;
+}
+
+.header {
+    order: 1;
+}
+
+.aside-1 {
+    order: 2;
+}
+
+.paragraph {
+	width: 70%;
+    order: 3;
+}
+
+.aside-2 {
+    order: 4;
+}
+
+.footer {
+    order: 5;
+}
