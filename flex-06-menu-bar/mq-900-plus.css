@@ -1,0 +1,13 @@
+li {
+	display: inline;
+	display: flex;
+	border: none;
+	width: 100px;
+}
+
+ul {
+	height: 55px;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0px 50px;
+}

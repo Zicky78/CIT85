@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+	width: 100%;
+	display: block;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #03c0ff31;
+	border-style: inset;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	background-color: #03bfff;
+	margin: 0;
+	padding: 0;
+}
