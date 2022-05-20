@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.circle {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: #000;
+	animation: moveBall 5s ease infinite;
+}
+
+@keyframes moveBall {
+	0% {
+		transform: translateY(500px);
+	}
+	12.5% {
+		transform: skew(30deg, -15deg);
+	}
+	25% {
+		transform: translateX(500px);
+	}
+	37.5% {
+		transform: skew(-30deg, -15deg);
+	}
+	50% {
+		transform: translateY(-500px);
+	}
+	62.5% {
+		transform: skewX(30deg);
+	}
+	75% {
+		transform: translateX(-500px);
+	}
+}
