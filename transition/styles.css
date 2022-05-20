@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	background-color: aquamarine;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle:hover {
+	background-color: rgb(170, 224, 238);
+	transition: background-color 500ms ease-in;
+}
