@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+i {
+	font-size: 30rem;
+    color: rgb(255, 230, 89);
+}
